@@ -60,6 +60,7 @@ That separation matters. Teams get weak results when they try to solve everythin
 - `TASK_FRAMING_GUIDE.md`: how to write high-signal Codex tasks
 - `EVAL_HARNESS_STARTER.md`: starter guidance for measuring workflow quality
 - `CODEX_TEAM_PLAYBOOK.md`: rollout guidance for training a team
+- `SKILLS_VS_AGENTS.md`: when to use reusable workflows versus separate workers
 - `examples/skills/`: concrete skill examples you can copy and adapt
 - `examples/hooks/`: concrete hook examples and rollout guidance
 - `benchmark-task-examples/`: sample task records for a pilot eval harness
