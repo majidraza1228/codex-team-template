@@ -60,6 +60,9 @@ That separation matters. Teams get weak results when they try to solve everythin
 - `TASK_FRAMING_GUIDE.md`: how to write high-signal Codex tasks
 - `EVAL_HARNESS_STARTER.md`: starter guidance for measuring workflow quality
 - `CODEX_TEAM_PLAYBOOK.md`: rollout guidance for training a team
+- `examples/skills/`: concrete skill examples you can copy and adapt
+- `examples/hooks/`: concrete hook examples and rollout guidance
+- `benchmark-task-examples/`: sample task records for a pilot eval harness
 
 ## How each file should be used
 
@@ -209,6 +212,19 @@ This repo is not:
 - a substitute for engineering judgment
 
 It is a starter operating system for adopting Codex well.
+
+## Concrete examples included
+
+This repo now includes example artifacts so teams do not have to start from blank templates:
+
+- `examples/skills/bug-fix/SKILL.md`
+- `examples/skills/prd-to-plan/SKILL.md`
+- `examples/skills/prompt-change-with-eval/SKILL.md`
+- `examples/hooks/forbidden-paths.md`
+- `examples/hooks/verification-reminder.md`
+- `benchmark-task-examples/`
+
+These are not meant to be universally correct. They are meant to show the right level of specificity.
 
 ## Signs your team is using Codex better
 
