@@ -61,8 +61,16 @@ That separation matters. Teams get weak results when they try to solve everythin
 - `EVAL_HARNESS_STARTER.md`: starter guidance for measuring workflow quality
 - `CODEX_TEAM_PLAYBOOK.md`: rollout guidance for training a team
 - `SKILLS_VS_AGENTS.md`: when to use reusable workflows versus separate workers
+- `LAYERING_MODEL.md`: when to use prompts, `AGENTS.md`, skills, hooks, agents, scripts, and memory
+- `MEMORY_GUIDE.md`: how to use persistent memory without turning it into hidden instructions
+- `PILOT_REPO_CHECKLIST.md`: checklist for adopting this template in one real repo
+- `ANTI_PATTERNS.md`: common failure modes when teams adopt Codex
+- `TEAM_TRAINING_RUNBOOK.md`: a workshop outline for teaching the operating model
+- `examples/agents/`: filled `AGENTS.md` examples for different repo types
 - `examples/skills/`: concrete skill examples you can copy and adapt
 - `examples/hooks/`: concrete hook examples and rollout guidance
+- `examples/hooks/scripts/`: starter hook implementations
+- `examples/end-to-end/`: one complete example showing how the layers fit together
 - `benchmark-task-examples/`: sample task records for a pilot eval harness
 
 ## How each file should be used
@@ -224,6 +232,10 @@ This repo now includes example artifacts so teams do not have to start from blan
 - `examples/hooks/forbidden-paths.md`
 - `examples/hooks/verification-reminder.md`
 - `benchmark-task-examples/`
+- `examples/agents/`
+- `examples/end-to-end/`
+- `MEMORY_GUIDE.md`
+- `LAYERING_MODEL.md`
 
 These are not meant to be universally correct. They are meant to show the right level of specificity.
 
